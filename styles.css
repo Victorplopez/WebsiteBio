@@ -201,7 +201,7 @@ hero-home
     }
     
     .home-about {
-        background-image: url(img/car6.jpg);
+        background-image: url(https://picsum.photos/1920/1080);
         background-size: cover;
         background-position: center;
         padding-bottom: 10em;
