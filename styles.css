@@ -279,6 +279,9 @@ portfolio
     }
 }
 
+/* a:visited {text-decoration: none; color: black;} */
+
+.fab{text-decoration: none; color: #00ff6c;}
 
 
 
