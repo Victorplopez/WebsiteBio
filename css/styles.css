@@ -36,7 +36,7 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5em;
     font-weight: 900;
-    margin-top: 1em;
+    margin-top: 5em;
 }
 
 .title span {
@@ -114,8 +114,10 @@ nav a:focus {
 }
 
 .logo {
+    height: 6em;
     float: left;
-    height: 12em;
+    margin-left: 2em;
+    
 }
 
 @media (min-width: 55rem) {
@@ -134,7 +136,8 @@ nav a:focus {
  */
 
 .home-hero {
-    background-image: url("../img/background.JPG");
+    /* background-image: url("../img/background.JPG"); */
+    background-image: url("../img/beach.JPG");
     background-size: cover;
     background-position: center;
     padding: 10em 0;
@@ -201,7 +204,7 @@ hero-home
     }
     
     .home-about {
-        background-image: url(https://picsum.photos/1920/1080);
+        background-image: url(../img/background.JPG);
         background-size: cover;
         background-position: center;
         padding-bottom: 10em;
@@ -229,13 +232,26 @@ portfolio
 =======================
  */
 .portfolio {
-    margin: 3em 0;
+    background: #232323;
+    padding-top: 2em;
+}
+.portTitle {
+    color: #00ff6c;
+}
+
+.portInfo {
+    color: white;
+    padding-bottom: 2em;
+
+        
 }
 
 .port-item {
     margin: 0;
     position: relative;
 }
+
+.fab{text-decoration: none; color: #00ff6c;}
 
 .port-item img{
     display: block;
@@ -256,6 +272,41 @@ portfolio
 .port-desc p {
     margin: 1em;
 }
+
+/* Footer section */
+
+.footerContainer {
+    background-color:#232323;;
+}
+
+.footerTitle {
+    color: #00ff6c;
+}
+.footerInfo{
+    color: white;
+    margin-top: 25px;
+    left: solid;
+    box-shadow: -1px 0px 0px 0px black
+}
+
+.rightsReserved {
+    margin-top: 5px;
+    padding-left: 60%;
+}
+
+.footerLogo {
+    width: 6em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    margin-top: -1.5em;
+}
+
+.footerFab{
+    color: white;
+    display: block;
+    margin: 15px;
+}
+
 
 @media (min-width: 37rem) {
     .port-item {
@@ -280,8 +331,6 @@ portfolio
 }
 
 /* a:visited {text-decoration: none; color: black;} */
-
-.fab{text-decoration: none; color: #00ff6c;}
 
 
 

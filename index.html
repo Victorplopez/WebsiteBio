@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial=scale=1">
-    <title>Victor Lopez</title>
+    <title class="title">Victor Lopez</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -14,12 +14,12 @@
 
 <body>
     <header>
-        <img src="img/Logo.png" alt="Dino Car" class="logo">
+        <a href="#"><img src="img/Logo.png" alt="logo" class="pull-left logo"></a>
         <nav>
             <ul>
-                <li><a class="navInfo href=" #">Home</a></li>
-                <li><a class="navInfo href=" #">About</a></li>
-                <li><a class="navInfo href=" #">Contact</a></li>
+                <li><a class="navInfo" href="#">Home</a></li>
+                <li><a class="navInfo" href="#">About</a></li>
+                <li><a class="navInfo" href="#footerSection">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,9 +27,9 @@
     <section class="home-hero">
         <div class="container-fluid">
             <h1 class="title">Victor Lopez
-                <span>Seeking full time job</span>
+                <span>Seeking full time software developer position</span>
             </h1>
-            <a href="#" class="button button-accent">See My Work</a>
+            <a href="#footerSection" class="button button-accent">See My Work</a>
         </div>
     </section>
 
@@ -38,20 +38,23 @@
             <h1>Who I Am</h1>
             <p><strong>Received B.S. Computer Science from CSU Fresno.</strong></p>
             <p>I am an avid learner in the software/tech industry, with a strong will for improvement. I
-                haveexperience creating Android
+                have experience creating Android
                 applications with database implementations, python AI simulations, C++ and Java OOP practices, and
                 recently picked up HTML,
                 CSS, and JS through BitWise courses in Fresno. I'm continuing to further my education because I feel
-                that expending my tool
+                that expanding my tool
                 set is necessary for this field. I currently listen to podcasts that focus on best practices for
                 software engineers, as well as
-                many other topics. Thank you for your time and consideration!
+                many other topics. Please feel free to reach out if you have any questions.
             </p>
+            <p><strong>Thank you for your time and consideration!</strong></p>
         </div>
     </section>
 
     <section class="portfolio">
-        <h1>Some of my work</h1>
+        <h1 class="portTitle">Some of my work</h1>
+        <p class="portInfo">Below are some of my projects, more can be found on Github by following the link in the footer below.
+        </p>
         <!-- portfolio item 01 -->
         <figure class="port-item">
             <img src="img/watch.JPG" alt="portfolio item">
@@ -99,10 +102,10 @@
             <img src="img/halfDome.JPG" alt="portfolio item">
 
             <figcaption class="port-desc">
-                    <a href="https://github.com/Victorplopez/WebsiteBio"><i class="fab fa-github fa-2x"></i></a>
-                    <h3>Personal Web Page</h3>
-                    <a href="#" class="button button-accent button-small">Project
-                        Details</a>
+                <a href="https://github.com/Victorplopez/WebsiteBio"><i class="fab fa-github fa-2x"></i></a>
+                <h3>Personal Web Page</h3>
+                <a href="#" class="button button-accent button-small">Project
+                    Details</a>
             </figcaption>
         </figure>
 
@@ -127,14 +130,27 @@
         </figure>
     </section>
 
-    <!-- footer -->
-    <footer>
-        <div class="row">
-            <div class="col-md-4">Hello</div>
-            <div class="col-md-4">Hi</div>
-            <div class="col-md-4">Welcom</div>
+    <!-- Footer -->
+    <div class="footer" id="footerSection">
+        <div class="container-fluid footerContainer">
+            <div class="row">
+                <div class="col-sm-4 footerInfo">
+                    <a href="#"><img src="img/Logo.png" alt="logo" class="pull-left footerLogo"></a>
+                </div>
+                <div class="col-sm-4 footerInfo">
+                    <h1 class="footerTitle"><strong>Victor Lopez</strong></h1>
+                    <p>victorplopez@yahoo.com</p>
+                </div>
+                <div class="col-sm-4 footerInfo">
+                    <a href="https://www.linkedin.com/in/lopezpvictor/"><i class="fab fa-linkedin footerFab">
+                            LinkedIn</i></a>
+                    <a href="https://github.com/Victorplopez"><i class="fab fa-github  footerFab"> Github</i></a>
+
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <!-- End of Footer -->
 
 </body>
 
