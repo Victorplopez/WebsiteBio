@@ -13,16 +13,38 @@
 </head>
 
 <body>
+    <nav class="navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button><a href="#" class="navbar-brand logo"><img src="img/Logo.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home <span class="sr-only">current</span></a></li>
+                    <li><a class="navInfo" href="#about">About</a></li>
+                    <li><a class="navInfo" href="#footerSection">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 
     <header>
         <a href="#"><img src="img/Logo.png" alt="logo" class="pull-left logo"></a>
         <nav>
             <ul>
                 <li><a class="navInfo" href="#">Home</a></li>
-                <li><a class="navInfo" href="#">About</a></li>
+                <li><a class="navInfo" href="#about">About</a></li>
                 <li><a class="navInfo" href="#footerSection">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
     <section class="home-hero">
         <div class="container-fluid">
@@ -33,7 +55,7 @@
         </div>
     </section>
 
-    <section class="home-about">
+    <section class="home-about" id="about">
         <div class="home-about-textbox">
             <h1>Who I Am</h1>
             <p><strong>Received B.S. Computer Science from CSU Fresno.</strong></p>
@@ -53,7 +75,8 @@
 
     <section class="portfolio">
         <h1 class="portTitle">Some of my work</h1>
-        <p class="portInfo">Below are some of my projects, more can be found on Github by following the link in the footer below.
+        <p class="portInfo">Below are some of my projects, more can be found on Github by following the link in the
+            footer below.
         </p>
         <!-- portfolio item 01 -->
         <figure class="port-item">
@@ -151,6 +174,8 @@
         </div>
     </div>
     <!-- End of Footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
